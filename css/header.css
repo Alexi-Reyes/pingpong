@@ -1,0 +1,23 @@
+.site-header {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+}
+
+.site-header .menu {
+    display: flex;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: black;
+    padding-inline: 5px;
+}
+
+@media screen and (max-width: 300px){
+    .site-header {
+        font-size: 10px;
+    }
+}

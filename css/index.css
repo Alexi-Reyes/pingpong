@@ -1,0 +1,12 @@
+.home .site-main .title{
+    width: 100%;
+    height: 100vh;
+    background-image: url("http://pingpassion.test/wp-content/uploads/2023/11/Ping-Pong-Playa-Graphic.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+}

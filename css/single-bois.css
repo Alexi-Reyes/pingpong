@@ -1,0 +1,43 @@
+.single-bois .bois-header {
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.single-bois h1 {
+    font-size: 60px;
+    padding: 20px;
+}
+
+.single-bois .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.single-bois .bois-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+.single-bois .bois-wrapper img {
+    height: 200px;
+    width: 200px;
+}
+
+.single-bois .bois-wrapper .bois-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.single-bois .bois-wrapper .bois-card h2{
+    padding-block: 10px;
+    font-size: 40px;
+}
